@@ -1,0 +1,59 @@
+* {
+    margin:0;
+    font-family:  Arial;
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-margin-top: 10rem;
+}
+
+header {
+    background: #9FB7B9;
+    height: 6rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    width: 100%;
+    top: 0%;
+}
+ 
+header a{
+    color:black;
+    text-decoration: none ;
+    text-transform: uppercase ;
+    font-weight: 700;
+}
+
+nav {
+    display:flex;
+    gap: 10rem;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+section {
+    border:1px solid red;
+    height: calc(100vh - 10rem);   
+}
+
+#listas {
+    margin-top: 10rem;
+    padding-top: 10rem;
+
+    background-color: aliceblue;
+    color: black;
+}
+
+#tabelas{
+    padding-top: 10rem;
+}
+
+#formularios {
+    padding-top: 10rem;
+}
+
